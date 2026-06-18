@@ -1,0 +1,10 @@
+| Data Source | Evidence | Finding |
+|-------------|----------|---------|
+| **dbSNP / gnomAD** | rs4910165 = chr11:10652497 C>G, IRAG1 intron 1, MAF=0.32 (EUR) | Intronic regulatory variant |
+| **UniProt Q9Y6F6** | PRKG1-binding (144-176), ITPR1-binding (527-573), 9 isoforms, 4 promoters | Domain architecture supports isoform-specific regulation |
+| **deCODE pQTL** | rs4910165 is cis-pQTL for IRAG1 (N=35,559) | Variant directly alters plasma IRAG1 protein levels |
+| **GTEx v8** | rs4910165 is cis-eQTL for IRAG1 in vascular tissues | Regulatory effect at transcriptional level |
+| **Werder 2011** | IRAG1: 4 alternative promoters, tissue-specific splicing (PMID:21865585) | Intronic variants can alter isoform balance |
+| **Koehler 2020** | MRVI1 nonsense mutations → familial achalasia (PMID:32573102) | Human monogenic phenotype confirms IRAG1 functional importance in smooth muscle |
+| **Yoshiji 2025 (template)** | COL6A3 rs11677932: RegulomeDB 1b, MEF2B motif disruption | Parallel intronic regulatory mechanism |
+| **ENCODE** | DNase-seq + H3K27ac peaks at IRAG1 locus in vascular/endothelial cells | Active regulatory chromatin at variant location |

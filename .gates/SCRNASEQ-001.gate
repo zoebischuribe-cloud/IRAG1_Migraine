@@ -1,0 +1,14 @@
+PASSED: 2026-06-18
+STORY: SCRNASEQ-001 — scRNA-seq: IRAG1 cell-type expression in migraine-relevant tissues
+SKILLS_VERIFIED: 4
+OUTPUT_FILES: [./results/tables/IRAG1_expression_tissues.csv, ./manuscript/04_scRNAseq_Expression.md]
+MANUSCRIPT: manuscript/04_scRNAseq_Expression.md (~1200 words Methods + Results)
+TEMPLATE_COMPARISON: Yoshiji 2025 Nat Genet §13 (COL6A3 expression analyses) — matched structure
+
+KEY_FINDINGS:
+- IRAG1 is highly expressed in vascular smooth muscle (VSMC) and platelets
+- IRAG1 mediates NO-cGMP-PKG-IP3R-Ca2+ signaling — directly relevant to migraine
+- 9 isoforms from 4 alternative promoters
+- Koehler 2020: MRVI1 mutations → achalasia (monogenic smooth muscle phenotype)
+- Simurda 2025: IRAG1 polymorphisms → SPS + migraine (direct genetic evidence)
+LOCKED: true

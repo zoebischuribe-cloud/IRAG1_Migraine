@@ -1,0 +1,230 @@
+
+R version 4.3.1 (2023-06-16) -- "Beagle Scouts"
+Copyright (C) 2023 The R Foundation for Statistical Computing
+Platform: x86_64-conda-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #!/usr/bin/env Rscript
+> # Lightweight cis-pQTL → Migraine MR — data.table only, no TwoSampleMR
+> # Wald ratio (1 SNP) or IVW-FE (≥2 SNPs) with manual harmonization
+> # 3 platforms in parallel via mclapply
+> suppressMessages({ library(data.table); library(parallel) })
+> 
+> t0 <- Sys.time()
+> cat(sprintf("[%s] Starting lightweight batch cis-pQTL MR\n", Sys.time()))
+[2026-06-02 15:13:24.849058] Starting lightweight batch cis-pQTL MR
+> 
+> # ── Paths ──
+> MIGRAINE <- "/mnt/d/01_Projects/GWAS_rawdata/Migraine_G6-MIGRAINE_FinnGenR12_N401499.tsv.gz"
+> PLATFORMS <- list(
++   ukb_ppp = "/mnt/d/00_Ref_data/GWAS数据源/data_cispQTL_ukb_ppp_exp.csv",
++   decode  = "/mnt/d/00_Ref_data/GWAS数据源/data_cispQT_decode_exp.csv",
++   fenland = "/mnt/d/00_Ref_data/GWAS数据源/data_cispQT_fenland_exp.csv"
++ )
+> OUT <- "/mnt/d/01_Projects/IRAG1_Migraine/results/batch_mr"
+> 
+> # ── Load migraine ──
+> cat("[1/3] Loading migraine GWAS...\n")
+[1/3] Loading migraine GWAS...
+> mig <- fread(MIGRAINE, select = c(1,2,3,4,5,7,9,10,11),
++   col.names = c("chr","pos","ref","alt","SNP","pval","beta","se","af_alt"),
++   showProgress = FALSE)
+> setkey(mig, SNP)
+> cat(sprintf("  %d SNPs\n", nrow(mig)))
+  21325483 SNPs
+> 
+> # ── Harmonize & MR (lightweight) ──
+> # Allele harmonization: flip outcome beta if alleles swapped or complement
+> harmonize_alleles <- function(ea_exp, oa_exp, ea_out, oa_out) {
++   # Returns multiplier: 1 = same strand, -1 = flip needed, NA = incompatible
++   m <- rep(NA_real_, length(ea_exp))
++   # Same strand match
++   same <- (ea_exp == ea_out) & (oa_exp == oa_out)
++   m[same] <- 1
++   # Flip strand match (complement)
++   flip <- (ea_exp == oa_out) & (oa_exp == ea_out)
++   m[flip] <- 1  # Already matched by harmonise, this is fine
++   # Palindromic check
++   pal <- (ea_exp == complement(oa_exp)) | (ea_exp == complement(ea_out))
++   return(list(mult = m, pal = pal))
++ }
+> 
+> complement <- function(x) {
++   x[x=="A"] <- "T"; x[x=="T"] <- "A"; x[x=="C"] <- "G"; x[x=="G"] <- "C"; x
++ }
+> 
+> # Wald ratio: beta_mr = beta_out / beta_exp, se_mr = se_out / |beta_exp|
+> wald_ratio <- function(b_exp, se_exp, b_out, se_out, mult) {
++   b_out_adj <- b_out * mult  # Flip if alleles differ
++   b_mr <- b_out_adj / b_exp
++   se_mr <- se_out / abs(b_exp)
++   p_mr <- 2 * pnorm(-abs(b_mr / se_mr))
++   data.frame(b = b_mr, se = se_mr, pval = p_mr)
++ }
+> 
+> # IVW fixed effects (for >=2 SNPs)
+> ivw_fe <- function(b_exp, se_exp, b_out, se_out, mult) {
++   b_out_adj <- b_out * mult
++   b_mr_i <- b_out_adj / b_exp   # per-SNP Wald estimates
++   se_mr_i <- se_out / abs(b_exp)
++   w <- 1 / se_mr_i^2
++   b_ivw <- sum(w * b_mr_i) / sum(w)
++   se_ivw <- sqrt(1 / sum(w))
++   p_ivw <- 2 * pnorm(-abs(b_ivw / se_ivw))
++   # Cochran's Q
++   Q <- sum(w * (b_mr_i - b_ivw)^2)
++   Q_pval <- pchisq(Q, length(b_exp) - 1, lower.tail = FALSE)
++   data.frame(b = b_ivw, se = se_ivw, pval = p_ivw, Q = Q, Q_df = length(b_exp)-1, Q_pval = Q_pval)
++ }
+> 
+> # ── Process one platform ──
+> process_platform <- function(plat_name, csv_path) {
++   t1 <- Sys.time()
++   cat(sprintf("[%s] Loading...\n", plat_name))
++   raw <- suppressMessages(fread(csv_path, data.table = FALSE, showProgress = FALSE))
++   if (!"id.exposure" %in% names(raw))
++     raw$id.exposure <- if ("info.exposure" %in% names(raw)) raw$info.exposure else raw$exposure
++   raw$id.exposure <- as.character(raw$id.exposure)
++   proteins <- unique(raw$id.exposure)
++   cat(sprintf("[%s] %d proteins\n", plat_name, length(proteins)))
++ 
++   results <- list(); n_ok <- 0; n_skip <- 0
++   for (i in seq_along(proteins)) {
++     pid <- proteins[i]; inst <- raw[raw$id.exposure == pid, ]
++     matched <- mig[inst$SNP, nomatch = NULL]
++     if (nrow(matched) < 1) { n_skip <- n_skip + 1; next }
++ 
++     # Merge by SNP
++     m <- merge(inst, matched, by = "SNP", suffixes = c(".exp", ".out"))
++     if (nrow(m) < 1) { n_skip <- n_skip + 1; next }
++ 
++     # Harmonize: handle allele mismatches
++     # Effect allele exposure vs outcome
++     ea_same <- m$effect_allele.exposure == m$alt
++     ea_comp <- m$effect_allele.exposure == m$ref
++     mult <- ifelse(ea_same, 1, ifelse(ea_comp, -1, NA))
++     if (any(is.na(mult))) { n_skip <- n_skip + 1; next }
++ 
++     # Palindromic check: skip palindromic SNPs with intermediate AF
++     pal <- (m$effect_allele.exposure == complement_char(m$other_allele.exposure))
++     if (any(pal)) {
++       keep <- !pal
++       if (sum(keep) < 1) { n_skip <- n_skip + 1; next }
++       m <- m[keep, ]; mult <- mult[keep]
++     }
++ 
++     # MR
++     if (nrow(m) == 1) {
++       mr <- wald_ratio(m$beta.exposure[1], m$se.exposure[1],
++                        m$beta[1], m$se[1], mult[1])
++     } else {
++       mr <- ivw_fe(m$beta.exposure, m$se.exposure,
++                    m$beta, m$se, mult)
++     }
++ 
++     gname <- if ("gene.exposure" %in% names(inst)) inst$gene.exposure[1]
++              else gsub(" \\|\\|.*", "", inst$exposure[1])
++ 
++     res <- data.frame(protein_id = pid, protein_name = gname,
++       nsnp = nrow(m), b = mr$b, se = mr$se, pval = mr$pval,
++       stringsAsFactors = FALSE)
++     results[[length(results) + 1]] <- res; n_ok <- n_ok + 1
++   }
++ 
++   all <- rbindlist(results); all <- as.data.frame(all)
++   all$fdr_q <- p.adjust(all$pval, method = "fdr")
++   all$bonf_thresh <- 0.05 / nrow(all)
++   all$bonf_sig <- all$pval < all$bonf_thresh
++   all$or <- exp(all$b)
++   all <- all[order(all$pval), ]
++   fwrite(all, file.path(OUT, sprintf("cispQTL_mr_%s.csv", plat_name)))
++ 
++   dt <- difftime(Sys.time(), t1, units = "secs")
++   cat(sprintf("[%s] DONE %d proteins | Bonf: %d | FDR<0.05: %d | Top P=%.2e (%s) | %.0fs\n",
++               plat_name, nrow(all), sum(all$bonf_sig), sum(all$fdr_q < 0.05),
++               all$pval[1], all$protein_name[1], as.numeric(dt)))
++   all
++ }
+> 
+> complement_char <- function(x) {
++   chartr("ACGT", "TGCA", x)
++ }
+> 
+> # ── Run 3 platforms in parallel ──
+> cat("[2/3] Processing 3 platforms in parallel...\n")
+[2/3] Processing 3 platforms in parallel...
+> all_res <- mclapply(names(PLATFORMS), function(nm) {
++   process_platform(nm, PLATFORMS[[nm]])
++ }, mc.cores = 3, mc.preschedule = FALSE)
+[ukb_ppp] Loading...
+[decode] Loading...
+[fenland] Loading...
+[decode] 1820 proteins
+[ukb_ppp] 2002 proteins
+[fenland] 1788 proteins
+[fenland] DONE 1593 proteins | Bonf: 2 | FDR<0.05: 6 | Top P=2.29e-08 (ENSG00000072952) | 5s
+[decode] DONE 1695 proteins | Bonf: 0 | FDR<0.05: 0 | Top P=1.36e-04 (NDRG3) | 6s
+[ukb_ppp] DONE 1836 proteins | Bonf: 1 | FDR<0.05: 8 | Top P=1.83e-05 (TXNDC9) | 7s
+> names(all_res) <- names(PLATFORMS)
+> 
+> # ── Summary ──
+> cat("\n[3/3] === FINAL SUMMARY ===\n")
+
+[3/3] === FINAL SUMMARY ===
+> for (plat in names(all_res)) {
++   d <- all_res[[plat]]
++   cat(sprintf("\n%s: %d proteins | Bonf: %d | FDR<0.05: %d\n",
++               plat, nrow(d), sum(d$bonf_sig), sum(d$fdr_q < 0.05)))
++   irag1 <- d[grep("MRVI1|IRAG1", d$protein_name, ignore.case = TRUE), ]
++   if (nrow(irag1) > 0) cat(sprintf("  IRAG1: P=%.2e FDR=%.3f OR=%.3f\n",
++                                     irag1$pval[1], irag1$fdr_q[1], irag1$or[1]))
++   cat("  Top 5:\n")
++   for (j in 1:min(5, nrow(d)))
++     cat(sprintf("    %s | P=%.2e FDR=%.3f OR=%.2f\n", d$protein_name[j], d$pval[j], d$fdr_q[j], d$or[j]))
++ }
+
+ukb_ppp: 1836 proteins | Bonf: 1 | FDR<0.05: 8
+  Top 5:
+    TXNDC9 | P=1.83e-05 FDR=0.034 OR=0.43
+    POSTN | P=3.91e-05 FDR=0.035 OR=0.87
+    ROBO1 | P=1.11e-04 FDR=0.035 OR=0.86
+    SPRY2 | P=1.15e-04 FDR=0.035 OR=1.48
+    ATOX1 | P=1.31e-04 FDR=0.035 OR=1.64
+
+decode: 1695 proteins | Bonf: 0 | FDR<0.05: 0
+  IRAG1: P=1.08e-01 FDR=0.583 OR=0.620
+  Top 5:
+    NDRG3 | P=1.36e-04 FDR=0.175 OR=2.10
+    ETFA | P=2.06e-04 FDR=0.175 OR=0.55
+    LEPR | P=3.52e-04 FDR=0.199 OR=0.96
+    ADH1C | P=1.02e-03 FDR=0.203 OR=1.26
+    RARRES1 | P=1.03e-03 FDR=0.203 OR=1.08
+
+fenland: 1593 proteins | Bonf: 2 | FDR<0.05: 6
+  Top 5:
+    ENSG00000072952 | P=2.29e-08 FDR=0.000 OR=0.75
+    ENSG00000100147 | P=6.18e-06 FDR=0.005 OR=1.32
+    ENSG00000166033 | P=5.63e-05 FDR=0.030 OR=1.37
+    ENSG00000177556 | P=1.28e-04 FDR=0.048 OR=1.46
+    ENSG00000196576 | P=1.81e-04 FDR=0.048 OR=0.94
+> 
+> merged <- do.call(rbind, all_res); merged <- merged[order(merged$pval), ]
+> fwrite(merged, file.path(OUT, "cispQTL_batch_mr_3platforms.csv"))
+> cat(sprintf("\nTotal: %.1f min\n", as.numeric(difftime(Sys.time(), t0, units = "mins"))))
+
+Total: 1.0 min
+> 
+> proc.time()
+   user  system elapsed 
+118.617   6.550  57.865 

@@ -1,0 +1,14 @@
+PASSED: 2026-06-18
+STORY: EPIGENOMICS-001 — ENCODE + RegulomeDB: rs4910165 functional annotation
+SKILLS_VERIFIED: 5
+OUTPUT_FILES: [./results/tables/RegulomeDB_rs4910165.txt, ./manuscript/03_Epigenomics.md]
+MANUSCRIPT: manuscript/03_Epigenomics.md (~1500 words Methods + Results)
+TEMPLATE_COMPARISON: Yoshiji 2025 Nat Genet §11 (Regulatory role section) — matched structure
+
+KEY_FINDINGS:
+- rs4910165 = intronic variant in IRAG1 intron 1, MAF=0.32 (EUR)
+- IRAG1 has 2 functional domains (PRKG1-binding 144-176, ITPR1-binding 527-573), 9 isoforms, 4 promoters
+- Variant located in DNase I hypersensitive site + active enhancer chromatin (H3K27ac+) in vascular tissues
+- deCODE pQTL + GTEx eQTL evidence confirms regulatory effect
+- Koehler 2020 monogenic phenotype provides orthogonal functional validation
+LOCKED: true

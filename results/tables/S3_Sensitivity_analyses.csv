@@ -1,0 +1,6 @@
+Analysis,Statistic,P,Conclusion
+Cochran Q (cis),"Q=0.01, df=1",0.91,No heterogeneity
+MR-Egger intercept,intercept=-0.003,0.82,No pleiotropy
+Steiger direction,TRUE,<1e-300,Correct direction
+Leave-one-out min P,P=4.2e-12,,No single SNP drives
+Leave-one-out max P,P=1.1e-10,,Robust to removal

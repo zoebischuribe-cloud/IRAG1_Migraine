@@ -1,0 +1,915 @@
+[1/5] Loading migraine GWAS... 21325483 SNPs
+
+[ukb_ppp] Loading instruments... 2002 proteins (6274 rows)
+Harmonising A1BG (A1BG_P04217_OID30771_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'A1BG_P04217_OID30771_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AAMDC (AAMDC_Q9H7C9_OID30236_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AAMDC_Q9H7C9_OID30236_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AARSD1 (AARSD1_Q9BTE6_OID21311_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AARSD1_Q9BTE6_OID21311_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ABCA2 (ABCA2_Q9BZC7_OID30146_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ABCA2_Q9BZC7_OID30146_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ABHD14B (ABHD14B_Q96IU4_OID20921_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ABHD14B_Q96IU4_OID20921_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising ABL1 (ABL1_P00519_OID21280_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ABL1_P00519_OID21280_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ABO (ABO_P16442_OID30675_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ABO_P16442_OID30675_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ACAA1 (ACAA1_P09110_OID21269_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACAA1_P09110_OID21269_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ACADM (ACADM_P11310_OID31277_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACADM_P11310_OID31277_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ACADSB (ACADSB_P45954_OID30356_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACADSB_P45954_OID30356_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ACAN (ACAN_P16112_OID20159_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACAN_P16112_OID20159_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ACE (ACE_P12821_OID30696_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACE_P12821_OID30696_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ACHE (ACHE_P22303_OID30585_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACHE_P22303_OID30585_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ACOT13 (ACOT13_Q9NPJ3_OID31522_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACOT13_Q9NPJ3_OID31522_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ACOX1 (ACOX1_Q15067_OID20124_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACOX1_Q15067_OID20124_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ACP1 (ACP1_P24666_OID30524_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACP1_P24666_OID30524_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ACP5 (ACP5_P13686_OID20314_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACP5_P13686_OID20314_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ACP6 (ACP6_Q9NPH0_OID21432_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACP6_Q9NPH0_OID21432_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ACRBP (ACRBP_Q8NEB7_OID31385_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACRBP_Q8NEB7_OID31385_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ACRV1 (ACRV1_P26436_OID30513_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACRV1_P26436_OID30513_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ACTA2 (ACTA2_P62736_OID20079_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACTA2_P62736_OID20079_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ACVRL1 (ACVRL1_P37023_OID20999_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACVRL1_P37023_OID20999_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising ACY1 (ACY1_Q03154_OID20137_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACY1_Q03154_OID20137_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ACY3 (ACY3_Q96HD9_OID30086_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACY3_Q96HD9_OID30086_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ACYP1 (ACYP1_P07311_OID30642_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ACYP1_P07311_OID30642_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADA (ADA_P00813_OID20645_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADA_P00813_OID20645_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising ADA2 (ADA2_Q9NZK5_OID20394_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs2041144
+Analysing 'ADA2_Q9NZK5_OID20394_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAM12 (ADAM12_O43184_OID30491_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAM12_O43184_OID30491_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAM15 (ADAM15_Q13444_OID20109_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs2990246
+Analysing 'ADAM15_Q13444_OID20109_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAM22 (ADAM22_Q9P0K1_OID21001_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAM22_Q9P0K1_OID21001_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAM23 (ADAM23_O75077_OID20651_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAM23_O75077_OID20651_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAM8 (ADAM8_P78325_OID21039_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAM8_P78325_OID21039_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAM9 (ADAM9_Q13443_OID31488_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAM9_Q13443_OID31488_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAMTS1 (ADAMTS1_Q9UHI8_OID30528_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAMTS1_Q9UHI8_OID30528_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAMTS13 (ADAMTS13_Q76LX8_OID20249_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAMTS13_Q76LX8_OID20249_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAMTS15 (ADAMTS15_Q8TE58_OID21275_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAMTS15_Q8TE58_OID21275_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAMTS16 (ADAMTS16_Q8TE57_OID20089_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAMTS16_Q8TE57_OID20089_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAMTS4 (ADAMTS4_O75173_OID30471_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAMTS4_O75173_OID30471_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAMTS8 (ADAMTS8_Q9UP79_OID21502_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs2282578
+Analysing 'ADAMTS8_Q9UP79_OID21502_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAMTSL2 (ADAMTSL2_Q86TH1_OID30370_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAMTSL2_Q86TH1_OID30370_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAMTSL4 (ADAMTSL4_Q6UY14_OID30275_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAMTSL4_Q6UY14_OID30275_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADAMTSL5 (ADAMTSL5_Q6ZMM2_OID30355_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADAMTSL5_Q6ZMM2_OID30355_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADD1 (ADD1_P35611_OID30655_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADD1_P35611_OID30655_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADGRB3 (ADGRB3_O60242_OID20974_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADGRB3_O60242_OID20974_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising ADGRD1 (ADGRD1_Q6QNK2_OID30588_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADGRD1_Q6QNK2_OID30588_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADGRE1 (ADGRE1_Q14246_OID31483_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADGRE1_Q14246_OID31483_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADGRE2 (ADGRE2_Q9UHX3_OID20755_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADGRE2_Q9UHX3_OID20755_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising ADGRE5 (ADGRE5_P48960_OID20260_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADGRE5_P48960_OID20260_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ADGRG1 (ADGRG1_Q9Y653_OID21294_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADGRG1_Q9Y653_OID21294_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ADH1B (ADH1B_P00325_OID30612_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADH1B_P00325_OID30612_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADH4 (ADH4_P08319_OID20117_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADH4_P08319_OID20117_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ADIPOQ (ADIPOQ_Q15848_OID30748_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADIPOQ_Q15848_OID30748_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ADM (ADM_P35318_OID21467_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ADM_P35318_OID21467_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising AFAP1 (AFAP1_Q8N556_OID30569_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AFAP1_Q8N556_OID30569_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AFM (AFM_P43652_OID30741_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AFM_P43652_OID30741_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AFP (AFP_P02771_OID20978_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AFP_P02771_OID20978_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising AGER (AGER_Q15109_OID20756_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AGER_Q15109_OID20756_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising AGR2 (AGR2_O95994_OID20896_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AGR2_O95994_OID20896_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising AGRN (AGRN_O00468_OID20786_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AGRN_O00468_OID20786_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising AGRP (AGRP_O00253_OID20658_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AGRP_O00253_OID20658_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising AGT (AGT_P01019_OID30709_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AGT_P01019_OID30709_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AGXT (AGXT_P21549_OID20139_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AGXT_P21549_OID20139_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising AHCY (AHCY_P23526_OID20199_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AHCY_P23526_OID20199_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising AHNAK (AHNAK_Q09666_OID30260_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AHNAK_Q09666_OID30260_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AHNAK2 (AHNAK2_Q8IVF2_OID30244_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AHNAK2_Q8IVF2_OID30244_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AHSG (AHSG_P02765_OID30706_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AHSG_P02765_OID30706_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AHSP (AHSP_Q9NZD4_OID21078_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AHSP_Q9NZD4_OID21078_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising AIF1 (AIF1_P55008_OID21234_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AIF1_P55008_OID21234_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising AIF1L (AIF1L_Q9BQI0_OID30204_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AIF1L_Q9BQI0_OID30204_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AKAP12 (AKAP12_Q02952_OID30571_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AKAP12_Q02952_OID30571_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AKR1B1 (AKR1B1_P15121_OID21244_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AKR1B1_P15121_OID21244_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising AKR1C4 (AKR1C4_P17516_OID20062_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AKR1C4_P17516_OID20062_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising AKR7L (AKR7L_Q8NHP1_OID30488_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AKR7L_Q8NHP1_OID30488_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AKT3 (AKT3_Q9Y243_OID21197_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AKT3_Q9Y243_OID21197_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ALCAM (ALCAM_Q13740_OID20273_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ALCAM_Q13740_OID20273_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ALDH3A1 (ALDH3A1_P30838_OID20512_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ALDH3A1_P30838_OID20512_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising ALDH5A1 (ALDH5A1_P51649_OID31047_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ALDH5A1_P51649_OID31047_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ALPP (ALPP_P05187_OID21383_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ALPP_P05187_OID21383_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising AMBN (AMBN_Q9NP70_OID20437_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AMBN_Q9NP70_OID20437_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising AMBP (AMBP_P02760_OID21413_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AMBP_P02760_OID21413_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising AMFR (AMFR_Q9UKV5_OID20806_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AMFR_Q9UKV5_OID20806_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising AMIGO1 (AMIGO1_Q86WK6_OID30881_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AMIGO1_Q86WK6_OID30881_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AMIGO2 (AMIGO2_Q86SJ2_OID21370_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs215384
+Analysing 'AMIGO2_Q86SJ2_OID21370_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising AMN (AMN_Q9BXJ7_OID20492_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AMN_Q9BXJ7_OID20492_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising AMOTL2 (AMOTL2_Q9Y2J4_OID31351_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AMOTL2_Q9Y2J4_OID31351_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AMPD3 (AMPD3_Q01432_OID31139_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AMPD3_Q01432_OID31139_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AMY1A (AMY1A_AMY1B_AMY1C_P0DUB6_P0DTE7_P0DTE8_OID30707_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AMY1A_AMY1B_AMY1C_P0DUB6_P0DTE7_P0DTE8_OID30707_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AMY2A (AMY2A_P04746_OID20333_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AMY2A_P04746_OID20333_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising AMY2B (AMY2B_P19961_OID20340_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AMY2B_P19961_OID20340_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ANG (ANG_P03950_OID20403_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANG_P03950_OID20403_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ANGPT1 (ANGPT1_Q15389_OID20740_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANGPT1_Q15389_OID20740_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising ANGPT2 (ANGPT2_O15123_OID21463_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANGPT2_O15123_OID21463_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ANGPTL1 (ANGPTL1_O95841_OID20211_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANGPTL1_O95841_OID20211_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ANGPTL2 (ANGPTL2_Q9UKU9_OID20726_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANGPTL2_Q9UKU9_OID20726_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising ANGPTL3 (ANGPTL3_Q9Y5C1_OID20407_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANGPTL3_Q9Y5C1_OID20407_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ANGPTL4 (ANGPTL4_Q9BY76_OID20703_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANGPTL4_Q9BY76_OID20703_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising ANGPTL7 (ANGPTL7_O43827_OID21412_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANGPTL7_O43827_OID21412_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ANKMY2 (ANKMY2_Q8IV38_OID30518_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANKMY2_Q8IV38_OID30518_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ANKRD54 (ANKRD54_Q6NXT1_OID21162_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANKRD54_Q6NXT1_OID21162_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ANPEP (ANPEP_P15144_OID20350_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANPEP_P15144_OID20350_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ANXA10 (ANXA10_Q9UJ72_OID20886_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANXA10_Q9UJ72_OID20886_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising ANXA11 (ANXA11_P50995_OID20583_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANXA11_P50995_OID20583_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising ANXA2 (ANXA2_P07355_OID30263_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANXA2_P07355_OID30263_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ANXA3 (ANXA3_P12429_OID21036_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANXA3_P12429_OID21036_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising ANXA4 (ANXA4_P09525_OID20123_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANXA4_P09525_OID20123_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ANXA5 (ANXA5_P08758_OID20810_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ANXA5_P08758_OID20810_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising AOC1 (AOC1_P19801_OID20452_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs7777104
+Analysing 'AOC1_P19801_OID20452_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising AOC3 (AOC3_Q16853_OID20389_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AOC3_Q16853_OID20389_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising AP1G2 (AP1G2_O75843_OID31348_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AP1G2_O75843_OID31348_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AP3B1 (AP3B1_O00203_OID31478_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AP3B1_O00203_OID31478_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising APBB1IP (APBB1IP_Q7Z5R6_OID21359_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APBB1IP_Q7Z5R6_OID21359_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising APCS (APCS_P02743_OID30778_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APCS_P02743_OID30778_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising APEX1 (APEX1_P27695_OID21434_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APEX1_P27695_OID21434_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising APOA1 (APOA1_P02647_OID30769_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APOA1_P02647_OID30769_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising APOA2 (APOA2_P02652_OID30686_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APOA2_P02652_OID30686_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising APOA4 (APOA4_P06727_OID30733_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs1729407
+No SNPs available for MR analysis of 'APOA4_P06727_OID30733_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising APOBR (APOBR_Q0VD83_OID30246_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APOBR_Q0VD83_OID30246_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising APOC1 (APOC1_P02654_OID30749_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APOC1_P02654_OID30749_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising APOD (APOD_P05090_OID30746_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APOD_P05090_OID30746_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising APOE (APOE_P02649_OID30727_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APOE_P02649_OID30727_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising APOF (APOF_Q13790_OID30701_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APOF_Q13790_OID30701_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising APOH (APOH_P02749_OID21072_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APOH_P02749_OID21072_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising APOL1 (APOL1_O14791_OID30708_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APOL1_O14791_OID30708_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising APOM (APOM_O95445_OID20374_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APOM_O95445_OID20374_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising APP (APP_P05067_OID21070_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APP_P05067_OID21070_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising APPL2 (APPL2_Q8NEU8_OID30590_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APPL2_Q8NEU8_OID30590_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising APRT (APRT_P07741_OID20927_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'APRT_P07741_OID20927_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising AREG (AREG_P15514_OID21357_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AREG_P15514_OID21357_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ARFIP1 (ARFIP1_P53367_OID31024_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ARFIP1_P53367_OID31024_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ARG1 (ARG1_P05089_OID21445_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ARG1_P05089_OID21445_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ARG2 (ARG2_P78540_OID31339_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ARG2_P78540_OID31339_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ARHGAP25 (ARHGAP25_P42331_OID21255_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ARHGAP25_P42331_OID21255_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ARHGAP45 (ARHGAP45_Q92619_OID30653_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ARHGAP45_Q92619_OID30653_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ARHGEF10 (ARHGEF10_O15013_OID30994_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ARHGEF10_O15013_OID30994_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ARHGEF5 (ARHGEF5_Q12774_OID30871_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ARHGEF5_Q12774_OID30871_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ARL2BP (ARL2BP_Q9Y2Y0_OID30121_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ARL2BP_Q9Y2Y0_OID30121_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ARSA (ARSA_P15289_OID21138_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ARSA_P15289_OID21138_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising ARSB (ARSB_P15848_OID21331_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ARSB_P15848_OID21331_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ART3 (ART3_Q13508_OID20346_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ART3_Q13508_OID20346_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising ART5 (ART5_Q96L15_OID30828_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ART5_Q96L15_OID30828_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ASAH1 (ASAH1_Q13510_OID30415_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ASAH1_Q13510_OID30415_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ASAH2 (ASAH2_Q9NR71_OID20996_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ASAH2_Q9NR71_OID20996_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising ASGR1 (ASGR1_P07306_OID20990_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ASGR1_P07306_OID20990_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising ASGR2 (ASGR2_P07307_OID30679_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ASGR2_P07307_OID30679_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ASPN (ASPN_Q9BXN1_OID30315_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ASPN_Q9BXN1_OID30315_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ASPSCR1 (ASPSCR1_Q9BZE9_OID31055_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ASPSCR1_Q9BZE9_OID31055_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ASRGL1 (ASRGL1_Q7L266_OID30283_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ASRGL1_Q7L266_OID30283_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ATOX1 (ATOX1_O00244_OID21476_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ATOX1_O00244_OID21476_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising ATP5IF1 (ATP5IF1_Q9UII2_OID20760_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ATP5IF1_Q9UII2_OID20760_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising ATP6V1G2 (ATP6V1G2_O95670_OID30167_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ATP6V1G2_O95670_OID30167_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ATRAID (ATRAID_Q6UW56_OID31451_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ATRAID_Q6UW56_OID31451_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ATRN (ATRN_O75882-2_OID30735_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ATRN_O75882-2_OID30735_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ATXN10 (ATXN10_Q9UBB4_OID20865_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ATXN10_Q9UBB4_OID20865_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising ATXN2L (ATXN2L_Q8WWM7_OID30980_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ATXN2L_Q8WWM7_OID30980_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising ATXN3 (ATXN3_P54252_OID31149_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'ATXN3_P54252_OID31149_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising AXIN1 (AXIN1_O15169_OID20582_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AXIN1_O15169_OID20582_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising AXL (AXL_P30530_OID20363_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AXL_P30530_OID20363_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising AZU1 (AZU1_P20160_OID20309_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'AZU1_P20160_OID20309_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising B3GNT7 (B3GNT7_Q8NFL0_OID30281_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'B3GNT7_Q8NFL0_OID30281_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising B4GALT1 (B4GALT1_P15291_OID20780_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'B4GALT1_P15291_OID20780_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising B4GAT1 (B4GAT1_O43505_OID21127_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'B4GAT1_O43505_OID21127_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising BACH1 (BACH1_O14867_OID20505_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BACH1_O14867_OID20505_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising BAG3 (BAG3_O95817_OID20972_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BAG3_O95817_OID20972_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising BAIAP2 (BAIAP2_Q9UQB8_OID21250_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BAIAP2_Q9UQB8_OID21250_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising BANK1 (BANK1_Q8NDB2_OID20594_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BANK1_Q8NDB2_OID20594_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising C17orf49 (BAP18_Q8IXM2_OID31150_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BAP18_Q8IXM2_OID31150_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BCAM (BCAM_P50895_OID21076_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BCAM_P50895_OID21076_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising BCAN (BCAN_Q96GW7_OID20998_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BCAN_Q96GW7_OID20998_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising BCAT1 (BCAT1_P54687_OID30312_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs1872647
+Analysing 'BCAT1_P54687_OID30312_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BCHE (BCHE_P06276_OID30717_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BCHE_P06276_OID30717_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BCL2 (BCL2_P10415_OID31454_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs1944419
+Analysing 'BCL2_P10415_OID31454_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BCL2L15 (BCL2L15_Q5TBC7_OID30498_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BCL2L15_Q5TBC7_OID30498_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BCR (BCR_P11274_OID20558_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BCR_P11274_OID20558_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising BDNF (BDNF_P23560_OID30373_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BDNF_P23560_OID30373_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BGLAP (BGLAP_P02818_OID30389_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BGLAP_P02818_OID30389_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BID (BID_P55957_OID20517_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BID_P55957_OID20517_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising BIN2 (BIN2_Q9UBW5_OID21067_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BIN2_Q9UBW5_OID21067_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising BLMH (BLMH_Q13867_OID20336_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs4474742
+Analysing 'BLMH_Q13867_OID20336_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising BLNK (BLNK_Q8WV28_OID30541_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BLNK_Q8WV28_OID30541_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BLVRB (BLVRB_P30043_OID21141_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BLVRB_P30043_OID21141_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising BMP10 (BMP10_O95393_OID30575_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BMP10_O95393_OID30575_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BMP6 (BMP6_P22004_OID20111_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BMP6_P22004_OID20111_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising BMPER (BMPER_Q8N8U9_OID30615_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BMPER_Q8N8U9_OID30615_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BNIP3L (BNIP3L_O60238_OID30525_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BNIP3L_O60238_OID30525_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BOC (BOC_Q9BWV1_OID20116_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BOC_Q9BWV1_OID20116_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising BOLA1 (BOLA1_Q9Y3E2_OID30837_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BOLA1_Q9Y3E2_OID30837_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BOLA2B (BOLA2_BOLA2B_Q9H3K6_OID30267_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BOLA2_BOLA2B_Q9H3K6_OID30267_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BPIFA2 (BPIFA2_Q96DR5_OID30279_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BPIFA2_Q96DR5_OID30279_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BPIFB1 (BPIFB1_Q8TDL5_OID20308_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BPIFB1_Q8TDL5_OID20308_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising BPIFB2 (BPIFB2_Q8N4F0_OID30311_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BPIFB2_Q8N4F0_OID30311_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BRSK2 (BRSK2_Q8IWQ3_OID31042_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BRSK2_Q8IWQ3_OID31042_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BSG (BSG_P35613_OID20626_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BSG_P35613_OID20626_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising BST1 (BST1_Q10588_OID21051_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BST1_Q10588_OID21051_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising BST2 (BST2_Q10589_OID21029_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BST2_Q10589_OID21029_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising BTC (BTC_P35070_OID21199_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs10027867
+Analysing 'BTC_P35070_OID21199_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising BTD (BTD_P43251_OID30754_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BTD_P43251_OID30754_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BTN1A1 (BTN1A1_Q13410_OID31363_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BTN1A1_Q13410_OID31363_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising BTN2A1 (BTN2A1_Q7KYR7_OID20713_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BTN2A1_Q7KYR7_OID20713_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising BTN3A2 (BTN3A2_P78410_OID20540_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'BTN3A2_P78410_OID20540_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising C19orf12 (C19orf12_Q9NSK7_OID20804_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs1048104
+No SNPs available for MR analysis of 'C19orf12_Q9NSK7_OID20804_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising C1QA (C1QA_P02745_OID20654_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C1QA_P02745_OID20654_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising C1QL2 (C1QL2_Q7Z5L3_OID30515_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C1QL2_Q7Z5L3_OID30515_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C1QTNF1 (C1QTNF1_Q9BXJ1_OID20367_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C1QTNF1_Q9BXJ1_OID20367_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising C1QTNF5 (C1QTNF5_Q9BXJ0_OID30618_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C1QTNF5_Q9BXJ0_OID30618_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C1QTNF6 (C1QTNF6_Q9BXI9_OID31049_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C1QTNF6_Q9BXI9_OID31049_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C1QTNF9 (C1QTNF9_P0C862_OID30620_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C1QTNF9_P0C862_OID30620_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C1R (C1R_P00736_OID30753_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C1R_P00736_OID30753_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C1RL (C1RL_Q9NZP8_OID30721_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C1RL_Q9NZP8_OID30721_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C1S (C1S_P09871_OID30731_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C1S_P09871_OID30731_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C2 (C2_P06681_OID20410_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C2_P06681_OID20410_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising C2CD2L (C2CD2L_O14523_OID20864_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C2CD2L_O14523_OID20864_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising C2orf69 (C2orf69_Q8N8R5_OID30883_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C2orf69_Q8N8R5_OID30883_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C3 (C3_P01024_OID30776_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C3_P01024_OID30776_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C4BPB (C4BPB_P20851_OID21481_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C4BPB_P20851_OID21481_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising C5 (C5_P01031_OID30744_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C5_P01031_OID30744_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C7 (C7_P10643_OID30766_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C7_P10643_OID30766_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C7orf50 (C7orf50_Q9BRJ6_OID31095_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C7orf50_Q9BRJ6_OID31095_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C8B (C8B_P07358_OID30719_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C8B_P07358_OID30719_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising C9 (C9_P02748_OID30698_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'C9_P02748_OID30698_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CA1 (CA1_P00915_OID20409_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CA1_P00915_OID20409_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CA11 (CA11_O75493_OID21195_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CA11_O75493_OID21195_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CA12 (CA12_O43570_OID21344_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CA12_O43570_OID21344_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CA13 (CA13_Q8N1Q1_OID20225_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CA13_Q8N1Q1_OID20225_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CA14 (CA14_Q9ULX7_OID21401_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs1122967
+Analysing 'CA14_Q9ULX7_OID21401_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CA2 (CA2_P00918_OID21149_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CA2_P00918_OID21149_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CA3 (CA3_P07451_OID20271_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CA3_P07451_OID20271_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CA4 (CA4_P22748_OID20241_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CA4_P22748_OID20241_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CA5A (CA5A_P35218_OID20075_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12922247, rs6540077
+Analysing 'CA5A_P35218_OID20075_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CA6 (CA6_P23280_OID21096_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CA6_P23280_OID21096_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CA9 (CA9_Q16790_OID21417_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CA9_Q16790_OID21417_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CACNB3 (CACNB3_P54284_OID31039_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CACNB3_P54284_OID31039_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CACYBP (CACYBP_Q9HB71_OID30649_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CACYBP_Q9HB71_OID30649_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CALB1 (CALB1_P05937_OID21306_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CALB1_P05937_OID21306_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CALB2 (CALB2_P22676_OID20801_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CALB2_P22676_OID20801_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CALCA (CALCA_P01258_OID20983_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CALCA_P01258_OID20983_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CALCB (CALCB_P10092_OID31100_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CALCB_P10092_OID31100_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CALCOCO1 (CALCOCO1_Q9P1Z2_OID21387_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CALCOCO1_Q9P1Z2_OID21387_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CALCOCO2 (CALCOCO2_Q13137_OID30249_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CALCOCO2_Q13137_OID30249_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CAMKK1 (CAMKK1_Q8N5S9_OID21182_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CAMKK1_Q8N5S9_OID21182_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CANT1 (CANT1_Q8WVQ1_OID20181_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CANT1_Q8WVQ1_OID20181_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CAPG (CAPG_P40121_OID21431_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CAPG_P40121_OID21431_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CAPN3 (CAPN3_P20807_OID31384_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CAPN3_P20807_OID31384_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CAPS (CAPS_Q13938_OID31126_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CAPS_Q13938_OID31126_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CARHSP1 (CARHSP1_Q9Y2V2_OID20859_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CARHSP1_Q9Y2V2_OID20859_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CASP1 (CASP1_P29466_OID20854_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CASP1_P29466_OID20854_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CASP10 (CASP10_Q92851_OID20893_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CASP10_Q92851_OID20893_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CASP3 (CASP3_P42574_OID20305_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CASP3_P42574_OID20305_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CASP7 (CASP7_P55210_OID31135_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CASP7_P55210_OID31135_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CASP8 (CASP8_Q14790_OID21414_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CASP8_Q14790_OID21414_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CASP9 (CASP9_P55211_OID30530_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CASP9_P55211_OID30530_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CAT (CAT_P04040_OID30712_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CAT_P04040_OID30712_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CBLIF (CBLIF_P27352_OID20179_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CBLIF_P27352_OID20179_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CBLN4 (CBLN4_Q9NTU7_OID21386_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CBLN4_Q9NTU7_OID21386_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CC2D1A (CC2D1A_Q6P1N0_OID20958_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CC2D1A_Q6P1N0_OID20958_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CCDC134 (CCDC134_Q9H6E4_OID31413_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs28384790
+No SNPs available for MR analysis of 'CCDC134_Q9H6E4_OID31413_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CCDC50 (CCDC50_Q8IVM0_OID31001_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCDC50_Q8IVM0_OID31001_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CCDC80 (CCDC80_Q76M96_OID20226_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCDC80_Q76M96_OID20226_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL13 (CCL13_Q99616_OID20655_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL13_Q99616_OID20655_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL14 (CCL14_Q16627_OID20401_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL14_Q16627_OID20401_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL15 (CCL15_Q16663_OID20328_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL15_Q16663_OID20328_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL16 (CCL16_O15467_OID20334_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL16_O15467_OID20334_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL17 (CCL17_Q92583_OID20745_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL17_Q92583_OID20745_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL18 (CCL18_P55774_OID20395_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL18_P55774_OID20395_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL19 (CCL19_Q99731_OID21030_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL19_Q99731_OID21030_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL2 (CCL2_P13500_OID21004_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL2_P13500_OID21004_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL20 (CCL20_P78556_OID20671_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL20_P78556_OID20671_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL21 (CCL21_O00585_OID20686_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL21_O00585_OID20686_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL22 (CCL22_O00626_OID20765_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL22_O00626_OID20765_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL23 (CCL23_P55773_OID20693_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL23_P55773_OID20693_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL24 (CCL24_O00175_OID20772_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL24_O00175_OID20772_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL25 (CCL25_O15444_OID20674_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL25_O15444_OID20674_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL26 (CCL26_Q9Y258_OID20546_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL26_Q9Y258_OID20546_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL27 (CCL27_Q9Y4X3_OID20121_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL27_Q9Y4X3_OID20121_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL28 (CCL28_Q9NRJ3_OID20569_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL28_Q9NRJ3_OID20569_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL3 (CCL3_P10147_OID20610_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL3_P10147_OID20610_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL4 (CCL4_P13236_OID20695_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL4_P13236_OID20695_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL5 (CCL5_P13501_OID20412_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL5_P13501_OID20412_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL7 (CCL7_P80098_OID20523_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs6505397
+Analysing 'CCL7_P80098_OID20523_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCL8 (CCL8_P80075_OID21466_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCL8_P80075_OID21466_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CCN1 (CCN1_O00622_OID21368_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCN1_O00622_OID21368_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CCN2 (CCN2_P29279_OID20709_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCN2_P29279_OID20709_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CCN3 (CCN3_P48745_OID20299_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCN3_P48745_OID20299_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CCN4 (CCN4_O95388_OID21444_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCN4_O95388_OID21444_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CCN5 (CCN5_O76076_OID21068_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCN5_O76076_OID21068_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CCS (CCS_O14618_OID20973_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CCS_O14618_OID20973_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD101 (CD101_Q93033_OID31480_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD101_Q93033_OID31480_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CD109 (CD109_Q6YHK3_OID21108_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD109_Q6YHK3_OID21108_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD14 (CD14_P08571_OID20378_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD14_P08571_OID20378_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CD160 (CD160_O95971_OID20647_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD160_O95971_OID20647_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD164 (CD164_Q04900_OID21080_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD164_Q04900_OID21080_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD164L2 (CD164L2_Q6UWJ8_OID30922_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD164L2_Q6UWJ8_OID30922_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CD177 (CD177_Q8N6Q3_OID21119_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD177_Q8N6Q3_OID21119_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD1C (CD1C_P29017_OID21483_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD1C_P29017_OID21483_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD2 (CD2_P06729_OID30097_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD2_P06729_OID30097_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CD200 (CD200_P41217_OID20603_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD200_P41217_OID20603_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD200R1 (CD200R1_Q8TD46_OID20595_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD200R1_Q8TD46_OID20595_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD207 (CD207_Q9UJ71_OID21298_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD207_Q9UJ71_OID21298_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD209 (CD209_Q9NNX6_OID20262_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD209_Q9NNX6_OID20262_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CD22 (CD22_P20273_OID20637_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD22_P20273_OID20637_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD226 (CD226_Q15762_OID30556_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD226_Q15762_OID30556_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CD244 (CD244_Q9BZW8_OID20628_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD244_Q9BZW8_OID20628_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD248 (CD248_Q9HCU0_OID30394_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs551243
+Analysing 'CD248_Q9HCU0_OID30394_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CD27 (CD27_P26842_OID21527_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD27_P26842_OID21527_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD274 (CD274_Q9NZQ7_OID20966_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD274_Q9NZQ7_OID20966_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD276 (CD276_Q5ZPR3_OID20680_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD276_Q5ZPR3_OID20680_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD28 (CD28_P10747_OID21265_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD28_P10747_OID21265_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD2AP (CD2AP_Q9Y5K6_OID20177_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD2AP_Q9Y5K6_OID20177_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CD300A (CD300A_Q9UGN4_OID30576_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD300A_Q9UGN4_OID30576_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CD300C (CD300C_Q08708_OID21010_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD300C_Q08708_OID21010_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD300E (CD300E_Q496F6_OID21418_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD300E_Q496F6_OID21418_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD300LF (CD300LF_Q8TDQ1_OID21469_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs4788849, rs56291520
+Analysing 'CD300LF_Q8TDQ1_OID21469_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD300LG (CD300LG_Q6UXG3_OID21130_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD300LG_Q6UXG3_OID21130_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD302 (CD302_Q8IX05_OID21328_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD302_Q8IX05_OID21328_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD33 (CD33_P20138_OID21472_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD33_P20138_OID21472_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD34 (CD34_P28906_OID21025_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD34_P28906_OID21025_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD36 (CD36_P16671_OID30485_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs1093834
+No SNPs available for MR analysis of 'CD36_P16671_OID30485_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CD38 (CD38_P28907_OID21316_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD38_P28907_OID21316_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD4 (CD4_P01730_OID20584_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD4_P01730_OID20584_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD40 (CD40_P25942_OID20724_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD40_P25942_OID20724_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD46 (CD46_P15529_OID20380_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD46_P15529_OID20380_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CD48 (CD48_P09326_OID20692_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD48_P09326_OID20692_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD5 (CD5_P06127_OID21449_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD5_P06127_OID21449_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD55 (CD55_P08174_OID20377_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD55_P08174_OID20377_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CD58 (CD58_P19256_OID20716_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD58_P19256_OID20716_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD59 (CD59_P13987_OID20339_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD59_P13987_OID20339_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CD5L (CD5L_O43866_OID30775_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD5L_O43866_OID30775_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CD6 (CD6_P30203_OID20649_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD6_P30203_OID20649_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD7 (CD7_P09564_OID30543_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD7_P09564_OID30543_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CD70 (CD70_P32970_OID20599_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD70_P32970_OID20599_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD72 (CD72_P21854_OID30641_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD72_P21854_OID30641_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CD74 (CD74_P04233_OID21040_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD74_P04233_OID21040_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CD79B (CD79B_P40259_OID20635_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD79B_P40259_OID20635_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD80 (CD80_P33681_OID30291_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD80_P33681_OID30291_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CD83 (CD83_Q01151_OID20565_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD83_Q01151_OID20565_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD84 (CD84_Q9UIB8_OID20607_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD84_Q9UIB8_OID20607_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CD86 (CD86_P42081_OID31500_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD86_P42081_OID31500_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CD8A (CD8A_P01732_OID21018_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CD8A_P01732_OID21018_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CDA (CDA_P32320_OID30345_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDA_P32320_OID30345_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CDC27 (CDC27_P30260_OID21238_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDC27_P30260_OID21238_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CDCP1 (CDCP1_Q9H5V8_OID20940_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDCP1_Q9H5V8_OID20940_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CDH1 (CDH1_P12830_OID20353_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDH1_P12830_OID20353_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CDH15 (CDH15_P55291_OID21005_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDH15_P55291_OID21005_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CDH17 (CDH17_Q12864_OID20134_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDH17_Q12864_OID20134_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CDH2 (CDH2_P19022_OID20170_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDH2_P19022_OID20170_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CDH23 (CDH23_Q9H251_OID31074_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDH23_Q9H251_OID31074_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CDH3 (CDH3_P22223_OID21008_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDH3_P22223_OID21008_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CDH5 (CDH5_P33151_OID20243_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDH5_P33151_OID20243_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CDH6 (CDH6_P55285_OID20157_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDH6_P55285_OID20157_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CDHR1 (CDHR1_Q96JP9_OID20808_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDHR1_Q96JP9_OID20808_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CDHR2 (CDHR2_Q9BYE9_OID21282_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDHR2_Q9BYE9_OID21282_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CDHR5 (CDHR5_Q9HBB8_OID20193_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDHR5_Q9HBB8_OID20193_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CDKN1A (CDKN1A_P38936_OID21319_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDKN1A_P38936_OID21319_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CDNF (CDNF_Q49AH0_OID21318_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDNF_Q49AH0_OID21318_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CDON (CDON_Q4KMG0_OID20754_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDON_Q4KMG0_OID20754_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CDSN (CDSN_Q15517_OID20667_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CDSN_Q15517_OID20667_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CEACAM1 (CEACAM1_P13688_OID21528_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEACAM1_P13688_OID21528_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CEACAM16 (CEACAM16_Q2WEN9_OID31495_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEACAM16_Q2WEN9_OID31495_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CEACAM19 (CEACAM19_Q7Z692_OID31443_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEACAM19_Q7Z692_OID31443_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CEACAM20 (CEACAM20_Q6UY09_OID31308_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEACAM20_Q6UY09_OID31308_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CEACAM21 (CEACAM21_Q3KPI0_OID20548_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEACAM21_Q3KPI0_OID20548_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CEACAM5 (CEACAM5_P06731_OID21171_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEACAM5_P06731_OID21171_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CEACAM6 (CEACAM6_P40199_OID30362_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEACAM6_P40199_OID30362_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CEACAM8 (CEACAM8_P31997_OID20102_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEACAM8_P31997_OID20102_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CEBPB (CEBPB_P17676_OID20052_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEBPB_P17676_OID20052_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CELA2A (CELA2A_P08217_OID30411_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CELA2A_P08217_OID30411_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CELA3A (CELA3A_P09093_OID20298_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CELA3A_P09093_OID20298_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CELSR2 (CELSR2_Q9HCU4_OID30593_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CELSR2_Q9HCU4_OID30593_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CEMIP2 (CEMIP2_Q9UHN6_OID30499_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEMIP2_Q9UHN6_OID30499_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CENPF (CENPF_P49454_OID31329_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CENPF_P49454_OID31329_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CEP112 (CEP112_Q8N8E3_OID30115_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEP112_Q8N8E3_OID30115_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CEP152 (CEP152_O94986_OID31249_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEP152_O94986_OID31249_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CEP170 (CEP170_Q5SW79_OID30240_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEP170_Q5SW79_OID30240_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CEP20 (CEP20_Q96NB1_OID21209_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEP20_Q96NB1_OID21209_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CEP43 (CEP43_O95684_OID20084_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEP43_O95684_OID20084_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CEP85 (CEP85_Q6P2H3_OID21241_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CEP85_Q6P2H3_OID21241_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CERT1 (CERT_Q9Y5P4_OID20857_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CERT_Q9Y5P4_OID20857_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CES1 (CES1_P23141_OID20244_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CES1_P23141_OID20244_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CES2 (CES2_O00748_OID21366_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CES2_O00748_OID21366_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CES3 (CES3_Q6UWW8_OID21340_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CES3_Q6UWW8_OID21340_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CETN3 (CETN3_O15182_OID31525_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CETN3_O15182_OID31525_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CFB (CFB_P00751_OID30755_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CFB_P00751_OID30755_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CFD (CFD_P00746_OID30738_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CFD_P00746_OID30738_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CFH (CFH_P08603_OID30790_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CFH_P08603_OID30790_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CFHR2 (CFHR2_P36980_OID30720_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CFHR2_P36980_OID30720_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CFHR4 (CFHR4_Q92496_OID30758_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CFHR4_Q92496_OID30758_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CFHR5 (CFHR5_Q9BXR6_OID30716_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for incompatible alleles:
+rs431408
+Analysing 'CFHR5_Q9BXR6_OID30716_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CFI (CFI_P05156_OID30772_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CFI_P05156_OID30772_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CGA (CGA_P01215_OID21069_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CGA_P01215_OID21069_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CGB8 (CGB3_CGB5_CGB8_P0DN86_OID30671_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CGB3_CGB5_CGB8_P0DN86_OID30671_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CGREF1 (CGREF1_Q99674_OID20152_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CGREF1_Q99674_OID20152_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CHAC2 (CHAC2_Q8WUX2_OID21230_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CHAC2_Q8WUX2_OID21230_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CHAD (CHAD_O15335_OID30660_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CHAD_O15335_OID30660_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CHCHD10 (CHCHD10_Q8WYQ3_OID31116_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CHCHD10_Q8WYQ3_OID31116_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CHCHD6 (CHCHD6_Q9BRQ6_OID31426_v1_Oncology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CHCHD6_Q9BRQ6_OID31426_v1_Oncology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CHGA (CHGA_P10645_OID30403_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CHGA_P10645_OID30403_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CHGB (CHGB_P05060_OID21038_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CHGB_P05060_OID21038_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CHI3L1 (CHI3L1_P36222_OID20399_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CHI3L1_P36222_OID20399_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CHIT1 (CHIT1_Q13231_OID20312_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CHIT1_Q13231_OID20312_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CHL1 (CHL1_O00533_OID20366_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CHL1_O00533_OID20366_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CHMP1A (CHMP1A_Q9HD42_OID20930_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CHMP1A_Q9HD42_OID20930_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CHMP6 (CHMP6_Q96FZ7_OID30327_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CHMP6_Q96FZ7_OID30327_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CHRDL2 (CHRDL2_Q6WN34_OID20223_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CHRDL2_Q6WN34_OID20223_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CIAPIN1 (CIAPIN1_Q6FI81_OID21501_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CIAPIN1_Q6FI81_OID21501_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CILP (CILP_O75339_OID30399_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CILP_O75339_OID30399_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CIT (CIT_O14578_OID30970_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CIT_O14578_OID30970_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CKAP4 (CKAP4_Q07065_OID20617_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CKAP4_Q07065_OID20617_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CLEC10A (CLEC10A_Q8IUN9_OID20928_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLEC10A_Q8IUN9_OID20928_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CLEC11A (CLEC11A_Q9Y240_OID21112_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLEC11A_Q9Y240_OID21112_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CLEC12A (CLEC12A_Q5QGZ9_OID30552_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLEC12A_Q5QGZ9_OID30552_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CLEC14A (CLEC14A_Q86T13_OID21090_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLEC14A_Q86T13_OID21090_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CLEC1A (CLEC1A_Q8NC01_OID20099_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLEC1A_Q8NC01_OID20099_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CLEC1B (CLEC1B_Q9P126_OID21061_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLEC1B_Q9P126_OID21061_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CLEC3B (CLEC3B_P05452_OID30756_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLEC3B_P05452_OID30756_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CLEC4G (CLEC4G_Q6UXB4_OID20590_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs475896
+Analysing 'CLEC4G_Q6UXB4_OID20590_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CLEC4M (CLEC4M_Q9H2X3_OID30405_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLEC4M_Q9H2X3_OID30405_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CLEC5A (CLEC5A_Q9NY25_OID20165_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLEC5A_Q9NY25_OID20165_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CLEC7A (CLEC7A_Q9BXN2_OID20636_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLEC7A_Q9BXN2_OID20636_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CLGN (CLGN_O14967_OID30957_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLGN_O14967_OID30957_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CLIC5 (CLIC5_Q9NZA1_OID30890_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLIC5_Q9NZA1_OID30890_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CLIP2 (CLIP2_Q9UDT6_OID20559_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLIP2_Q9UDT6_OID20559_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CLMP (CLMP_Q9H6B4_OID21419_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLMP_Q9H6B4_OID21419_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CLPS (CLPS_P04118_OID21156_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLPS_P04118_OID21156_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CLSTN2 (CLSTN2_Q9H4D0_OID20664_v1_Inflammation) and Migraine (finn-b-G6_MIGRAINE)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs62270249
+Analysing 'CLSTN2_Q9H4D0_OID20664_v1_Inflammation' on 'finn-b-G6_MIGRAINE'
+Harmonising CLSTN3 (CLSTN3_Q9BQT9_OID31092_v1_Neurology_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLSTN3_Q9BQT9_OID31092_v1_Neurology_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CLU (CLU_P10909_OID30732_v1_Inflammation_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLU_P10909_OID30732_v1_Inflammation_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CLUL1 (CLUL1_Q15846_OID20198_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CLUL1_Q15846_OID20198_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CMC1 (CMC1_Q7Z7K0_OID30360_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CMC1_Q7Z7K0_OID30360_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CNDP1 (CNDP1_Q96KN2_OID20347_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CNDP1_Q96KN2_OID20347_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CNP (CNP_P09543_OID30285_v1_Cardiometabolic_II) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CNP_P09543_OID30285_v1_Cardiometabolic_II' on 'finn-b-G6_MIGRAINE'
+Harmonising CNPY4 (CNPY4_Q8N129_OID21317_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CNPY4_Q8N129_OID21317_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CNTN1 (CNTN1_Q12860_OID20307_v1_Cardiometabolic) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CNTN1_Q12860_OID20307_v1_Cardiometabolic' on 'finn-b-G6_MIGRAINE'
+Harmonising CNTN2 (CNTN2_Q02246_OID21426_v1_Oncology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CNTN2_Q02246_OID21426_v1_Oncology' on 'finn-b-G6_MIGRAINE'
+Harmonising CNTN3 (CNTN3_Q9P232_OID21092_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CNTN3_Q9P232_OID21092_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CNTN4 (CNTN4_Q8IWV2_OID21117_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CNTN4_Q8IWV2_OID21117_v1_Neurology' on 'finn-b-G6_MIGRAINE'
+Harmonising CNTN5 (CNTN5_O94779_OID21006_v1_Neurology) and Migraine (finn-b-G6_MIGRAINE)
+Analysing 'CNTN5_O94779_OID21006_v1_Neurology' on 'finn-b-G6_MIGRAINE'

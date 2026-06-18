@@ -1,0 +1,223 @@
+{
+  "projectName": "IRAG1_Migraine — CRP→IRAG1→Migraine two-stage pQTL MR",
+  "templatePaper": "PMID:39856218",
+  "templateDOI": "10.1038/s41588-024-02052-7",
+  "targetJournal": "Nat Genet (IF 31.7)",
+  "enforcementMode": "strict",
+  "createdAt": "2026-06-02",
+  "ralphVersion": "2.0",
+  "stories": [
+    {
+      "id": "EPIGENOMICS-001",
+      "phase": 3,
+      "title": "ENCODE + RegulomeDB: rs4910165 functional annotation",
+      "skills_required": [
+        "ENCODE database query — ATAC-seq, H3K27ac, H3K4me3 tracks at IRAG1 locus",
+        "RegulomeDB — rs4910165 regulatory score",
+        "TF motif analysis — motifbreakR for rs4910165 disrupted motifs",
+        "QTLMR: — (reference data check)",
+        "SAS:scientific-visualization — epigenomic track figure"
+      ],
+      "passes": true,
+      "depends_on": [
+        "V2G-001"
+      ],
+      "output_files": [
+        "./results/figures/Fig_epigenomic_tracks.png",
+        "./results/tables/RegulomeDB_rs4910165.txt",
+        "./results/tables/motifbreakR_rs4910165.txt"
+      ],
+      "manuscript_section": "03_Epigenomics",
+      "gate_conditions": [
+        "output_files_exist",
+        "skills_all_invoked",
+        "manuscript_text_written",
+        "template_paper_comparison_done"
+      ]
+    },
+    {
+      "id": "SCRNASEQ-001",
+      "phase": 3,
+      "title": "scRNA-seq: IRAG1 cell-type expression in migraine-relevant tissues",
+      "skills_required": [
+        "PanglaoDB / Human Cell Atlas — IRAG1 expression query",
+        "GTEx v8 — IRAG1 tissue expression (vascular, brain, platelet)",
+        "SAS:scanpy — scRNA-seq data processing",
+        "SAS:scientific-visualization — dot plot / UMAP"
+      ],
+      "passes": true,
+      "depends_on": [
+        "EPIGENOMICS-001"
+      ],
+      "output_files": [
+        "./results/figures/Fig_IRAG1_cell_expression.png",
+        "./results/tables/IRAG1_expression_tissues.csv"
+      ],
+      "manuscript_section": "04_scRNAseq_Expression",
+      "gate_conditions": [
+        "output_files_exist",
+        "skills_all_invoked",
+        "manuscript_text_written",
+        "template_paper_comparison_done"
+      ]
+    },
+    {
+      "id": "DOMAIN-MR-001",
+      "phase": 3,
+      "title": "Domain-aware MR: IRAG1 isoform-specific causal effects",
+      "skills_required": [
+        "Ensembl — IRAG1 9 isoforms annotation",
+        "QTLMR:xQTL_mr — isoform-aware MR",
+        "QTLMR:coloc_abf — isoform-specific coloc",
+        "SAS:biopython — protein domain annotation"
+      ],
+      "passes": true,
+      "depends_on": [
+        "SCRNASEQ-001"
+      ],
+      "output_files": [
+        "./results/tables/IRAG1_isoform_MR.csv",
+        "./results/figures/Fig_IRAG1_isoform_MR.png"
+      ],
+      "manuscript_section": "05_Domain_Aware_MR",
+      "gate_conditions": [
+        "output_files_exist",
+        "skills_all_invoked",
+        "manuscript_text_written",
+        "template_paper_comparison_done"
+      ]
+    },
+    {
+      "id": "MVMR-001",
+      "phase": 3,
+      "title": "Multivariable MR: CRP independent of other inflammatory markers on IRAG1",
+      "skills_required": [
+        "QTLMR: — MVMR with CRP + IL6 + TNF + other markers",
+        "TwoSampleMR:mv_multiple",
+        "SAS:statsmodels — MVMR sensitivity"
+      ],
+      "passes": false,
+      "depends_on": [
+        "DOMAIN-MR-001"
+      ],
+      "output_files": [
+        "./results/tables/MVMR_CRP_IRAG1.csv"
+      ],
+      "manuscript_section": "06_MVMR",
+      "gate_conditions": [
+        "output_files_exist",
+        "skills_all_invoked",
+        "manuscript_text_written"
+      ]
+    },
+    {
+      "id": "SEX-STRAT-001",
+      "phase": 3,
+      "title": "Sex-stratified MR: male vs female IRAG1→Migraine effects",
+      "skills_required": [
+        "QTLMR: — sex-stratified MR",
+        "FinnGen sex-stratified GWAS"
+      ],
+      "passes": false,
+      "depends_on": [
+        "DOMAIN-MR-001"
+      ],
+      "output_files": [
+        "./results/tables/sex_stratified_MR.csv",
+        "./results/figures/Fig_sex_stratified_MR.png"
+      ],
+      "manuscript_section": "07_Sex_Stratified",
+      "gate_conditions": [
+        "output_files_exist",
+        "skills_all_invoked",
+        "manuscript_text_written",
+        "template_paper_comparison_done"
+      ]
+    },
+    {
+      "id": "ACTION-001",
+      "phase": 3,
+      "title": "Actionability assessment — drug repurposing + clinical feasibility",
+      "skills_required": [
+        "ChEMBL/DrugBank — IRAG1/cGMP pathway drugs",
+        "Open Targets — druggability assessment",
+        "SAS:depmap — gene dependency data"
+      ],
+      "passes": true,
+      "depends_on": [
+        "PHEWAS-001",
+        "EPIGENOMICS-001"
+      ],
+      "output_files": [
+        "./results/tables/druggability_IRAG1.csv",
+        "./results/figures/Fig_actionability.png"
+      ],
+      "manuscript_section": "08_Actionability",
+      "gate_conditions": [
+        "output_files_exist",
+        "skills_all_invoked",
+        "manuscript_text_written",
+        "template_paper_comparison_done"
+      ]
+    },
+    {
+      "id": "INT-001",
+      "phase": 4,
+      "title": "Results integration — 6-layer evidence narrative construction",
+      "skills_required": [
+        "ARC:Stage14-16 — result analysis + interpretation",
+        "SAS:scientific-critical-thinking",
+        "Nature:nature-figure — integrated evidence figure"
+      ],
+      "passes": false,
+      "depends_on": [
+        "MVMR-001",
+        "SEX-STRAT-001",
+        "ACTION-001"
+      ],
+      "output_files": [
+        "./results/figures/Fig_integrated_evidence.png"
+      ],
+      "manuscript_section": "09_Integrated_Results",
+      "gate_conditions": [
+        "output_files_exist",
+        "manuscript_text_written"
+      ]
+    },
+    {
+      "id": "WRITE-001",
+      "phase": 5,
+      "title": "Paper writing — assemble full manuscript from cumulative draft",
+      "skills_required": [
+        "ARS:academic-paper→plan",
+        "ARS:academic-paper→full",
+        "Nature:nature-writing",
+        "Nature:nature-polishing",
+        "Nature:nature-citation"
+      ],
+      "passes": false,
+      "depends_on": [
+        "INT-001"
+      ],
+      "output_files": [
+        "./manuscript/main_text.md",
+        "./manuscript/figures/*.pdf"
+      ],
+      "manuscript_section": null,
+      "gate_conditions": [
+        "output_files_exist",
+        "skills_all_invoked"
+      ]
+    }
+  ],
+  "completed_stories": [
+    "MR-STEP1",
+    "MR-STEP2",
+    "COLOC-001",
+    "FINE-001",
+    "SENSITIVITY-001",
+    "V2G-001",
+    "PHEWAS-001",
+    "REPLICATION-001"
+  ]
+}

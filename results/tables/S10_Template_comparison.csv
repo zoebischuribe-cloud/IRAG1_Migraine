@@ -1,0 +1,10 @@
+Dimension,Yoshiji_2025,This_study,Match
+Study design,BMI→proteins→CAD/Stroke/T2D,CRP→IRAG1→Migraine,Same framework
+MR framework,Two-stage pQTL MR,Two-stage pQTL MR,Identical
+Instrument selection,cis-pQTL only,cis-pQTL only,Identical
+Colocalization,coloc.abf PP.H4>0.8,coloc.abf PP.H4=0.993,Identical (same priors)
+Fine-mapping,SuSiE RSS 95% CS,SuSiE RSS PIP=0.999,Identical
+Epigenomics,ENCODE+RegulomeDB+motif,ENCODE+RegulomeDB+Literature,Similar (web APIs unavailable)
+scRNA-seq,SCP1376+GSE131780,GTEx+HPA+Literature,Similar (literature-based)
+PheWAS,Open Targets P<1e-5,GWAS Catalog P<1e-5,Similar
+Drug assessment,Endotrophin drug target,IRAG1 first-in-class,Novel (first-in-class)

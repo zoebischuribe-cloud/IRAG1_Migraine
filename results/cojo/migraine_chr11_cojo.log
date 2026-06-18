@@ -1,0 +1,47 @@
+*******************************************************************
+* Genome-wide Complex Trait Analysis (GCTA)
+* version v1.94.1 Linux
+* Built at Aug  3 2022 14:15:22, by GCC 12.1
+* (C) 2010-present, Yang Lab, Westlake University
+* Please report bugs to Jian Yang <jian.yang@westlake.edu.cn>
+*******************************************************************
+Analysis started at 20:15:58 CST on Tue Jun 02 2026.
+Hostname: lilaoban
+
+Accepted options:
+--bfile /mnt/d/00_Ref_data/1kg.v3/EUR
+--cojo-file /mnt/d/01_Projects/IRAG1_Migraine/results/cojo/migraine_chr11_irig1_locus.ma
+--cojo-slct
+--cojo-p 5e-08
+--cojo-wind 10000
+--out /mnt/d/01_Projects/IRAG1_Migraine/results/cojo/migraine_chr11_cojo
+
+
+Reading PLINK FAM file from [/mnt/d/00_Ref_data/1kg.v3/EUR.fam].
+503 individuals to be included from [/mnt/d/00_Ref_data/1kg.v3/EUR.fam].
+Reading PLINK BIM file from [/mnt/d/00_Ref_data/1kg.v3/EUR.bim].
+8550156 SNPs to be included from [/mnt/d/00_Ref_data/1kg.v3/EUR.bim].
+Reading PLINK BED file from [/mnt/d/00_Ref_data/1kg.v3/EUR.bed] in SNP-major format ...
+Genotype data for 503 individuals and 8550156 SNPs to be included from [/mnt/d/00_Ref_data/1kg.v3/EUR.bed].
+
+Reading GWAS summary-level statistics from [/mnt/d/01_Projects/IRAG1_Migraine/results/cojo/migraine_chr11_irig1_locus.ma] ...
+GWAS summary statistics of 16652 SNPs read from [/mnt/d/01_Projects/IRAG1_Migraine/results/cojo/migraine_chr11_irig1_locus.ma].
+Phenotypic variance estimated from summary statistics of all 16652 SNPs: 16.9772 (variance of logit for case-control studies).
+Matching the GWAS meta-analysis results to the genotype data ...
+Calculating allele frequencies ...
+Warning: can't match the reference alleles of 21 SNPs to those in the genotype data. These SNPs have been saved in [/mnt/d/01_Projects/IRAG1_Migraine/results/cojo/migraine_chr11_cojo.badsnps].
+5 SNP(s) have large difference of allele frequency between the GWAS summary data and the reference sample. These SNPs have been saved in [/mnt/d/01_Projects/IRAG1_Migraine/results/cojo/migraine_chr11_cojo.freq.badsnps].
+7220 SNPs are matched to the genotype data.
+Calculating the variance of SNP genotypes ...
+
+Performing stepwise model selection on 7220 SNPs to select association signals ... (p cutoff = 5e-08; collinearity cutoff = 0.9)
+(Assuming complete linkage equilibrium between SNPs which are more than 10Mb away from each other)
+Finally, 1 associated SNPs are selected.
+Performing joint analysis on all the 1 selected signals ...
+Saving the 1 independent signals to [/mnt/d/01_Projects/IRAG1_Migraine/results/cojo/migraine_chr11_cojo.jma.cojo] ...
+Saving the LD structure of 1 independent signals to [/mnt/d/01_Projects/IRAG1_Migraine/results/cojo/migraine_chr11_cojo.ldr.cojo] ...
+Saving the conditional analysis results of 7219 remaining SNPs to [/mnt/d/01_Projects/IRAG1_Migraine/results/cojo/migraine_chr11_cojo.cma.cojo] ...
+(0 SNPs eliminated by backward selection and 0 SNPs filtered by collinearity test are not included in the output)
+
+Analysis finished at 20:17:30 CST on Tue Jun 02 2026
+Overall computational time: 1 minute 32 sec.

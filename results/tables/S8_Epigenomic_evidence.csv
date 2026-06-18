@@ -1,0 +1,8 @@
+Source,Evidence,PMID
+dbSNP,"rs4910165 C>G, intronic",—
+gnomAD v4,EUR MAF=0.32,—
+UniProt,"PRKG1-bind 144-176, ITPR1-bind 527-573, 9 isoforms",Q9Y6F6
+GTEx v8,cis-eQTL in vascular tissues,—
+deCODE,cis-pQTL in plasma,34648354
+Koehler 2020,MRVI1 mutations → achalasia,32573102
+Werder 2011,"4 promoters, tissue-specific splicing",21865585

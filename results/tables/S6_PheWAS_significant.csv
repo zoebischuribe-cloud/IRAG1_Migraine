@@ -1,0 +1,8 @@
+protein_id,protein_name,source,nsnp_exp,nsnp_used,ivw_b,ivw_se,ivw_pval,wm_b,wm_se,wm_pval,egg_b,egg_se,egg_pval,het_q,het_q_df,het_q_pval,egg_int,egg_int_se,egg_int_pval,bonf_thresh,bonf_sig,fdr_q,or,or_lci95,or_uci95,z
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,5 @@
+Target,Drug_class,Examples,Status,Clinical_relevance
+IRAG1/MRVI1,None (first-in-class),—,Novel target,First-in-class opportunity
+PRKG1 (cGKI),cGMP analogs (preclinical),8-pCPT-cGMP,Pathway-adjacent,Tool compounds only
+ITPR1 (IP3R),IP3R modulators (preclinical),"Xestospongin C, 2-APB",Pathway-adjacent,Preclinical tools
+PDE5A,PDE5 inhibitors (approved),"Sildenafil, Tadalafil",Pathway-modulating,Headache as class effect
